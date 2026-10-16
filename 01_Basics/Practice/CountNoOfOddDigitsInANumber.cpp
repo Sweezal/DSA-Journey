@@ -1,0 +1,16 @@
+class Solution {
+public:
+    int countOddDigit(int n) {
+        int count=0;
+        int digit;
+        while (n>0){
+            digit=n%10;
+            if (digit%2 !=0){
+                count++;
+            }
+            n=n/10;
+        }
+        return count;
+
+    }
+};
