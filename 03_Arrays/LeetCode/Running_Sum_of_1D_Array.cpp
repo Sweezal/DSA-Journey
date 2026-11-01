@@ -6,11 +6,7 @@ public:
         for (int i=0;i<nums.size();i++){
             sum=sum+nums[i];
             nums[i]=sum;
-
-        
         }
         return nums;
-
     }
-    
 };
