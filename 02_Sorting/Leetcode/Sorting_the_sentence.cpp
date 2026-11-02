@@ -4,8 +4,6 @@ public:
         stringstream ss(s);
         string word;
         vector<string> ans(10);
-
-        
         while (ss >> word) {
             int pos = word.back() - '0';
             word.pop_back();
@@ -18,7 +16,6 @@ public:
                 result += ans[i];
             }
         }
-
         return result;
     }
 };
