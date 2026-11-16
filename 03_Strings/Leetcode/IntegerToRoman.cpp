@@ -17,7 +17,6 @@ public:
                 num -= val[i];
             }
         }
-
         return ans;
     }
 };
