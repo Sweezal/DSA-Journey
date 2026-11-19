@@ -11,7 +11,6 @@ public:
 
         if (r == 0 || c == 0 || r == m - 1 || c == n - 1)
             closed = false;
-
         grid[r][c] = 1;
 
         dfs(grid, r + 1, c, closed);
