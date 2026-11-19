@@ -8,5 +8,6 @@ public:
             nums[i]=sum;
         }
         return nums;
+        
     }
 };
