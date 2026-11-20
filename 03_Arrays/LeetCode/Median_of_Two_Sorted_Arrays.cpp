@@ -6,7 +6,6 @@ public:
 
         int m = nums1.size();
         int n = nums2.size();
-
         int low = 0, high = m;
 
         while (low <= high) {
