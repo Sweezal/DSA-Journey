@@ -16,6 +16,7 @@ public:
                 result += ans[i];
             }
         }
+        
         return result;
     }
 };
