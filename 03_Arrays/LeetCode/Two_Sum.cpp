@@ -6,13 +6,11 @@ public:
 
         for (int i = 0; i < nums.size(); ++i) {
             int complement = target - nums[i];
-
             auto it = mp.find(complement);
 
             if (it != mp.end()) {
                 return {it->second, i};
             }
-
             mp.emplace(nums[i], i);
         }
 
