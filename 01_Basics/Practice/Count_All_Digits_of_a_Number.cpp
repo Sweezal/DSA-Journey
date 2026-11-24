@@ -10,6 +10,7 @@ public:
         while (n > 0) {
             count++;
             n = n / 10;
+            
         }
         return count;
     }
