@@ -11,6 +11,7 @@ public:
         }
         string result = "";
         for (int i = 1; i <= 9; i++) {
+            
             if (!ans[i].empty()) {
                 if (!result.empty()) result += " ";
                 result += ans[i];
